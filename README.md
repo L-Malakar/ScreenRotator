@@ -1,9 +1,9 @@
-PROJECT NAME: SCREENROTATOR AUTO (2026)
+#PROJECT NAME: SCREENROTATOR AUTO (2026)
 
-DESCRIPTION
+#DESCRIPTION
 ScreenRotator Auto is a specialized open-source Windows utility designed for rotating the primary display via global keyboard macros. Developed by L. Malakar, it offers a high-performance, thread-safe solution for users who need instant screen orientation changes without accessing system display settings.
 
-KEY FEATURES
+#KEY FEATURES
 
 Global Hotkey Support: Execute screen rotations from any active application using system-wide shortcuts.
 
