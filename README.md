@@ -48,6 +48,13 @@ pip install rotatescreen keyboard pystray Pillow pywin32 winshell
 **Step 6: Verify Assets**
 Ensure logo.ico and rotate pc.py are in the same folder. These were included when you ran the git clone command.
 
+**Step 7: Build the Standalone Executable**
+Now you can run the build command. Since you mentioned the .ico is already in your repo, this command will work perfectly:
+
+```
+python -m PyInstaller --noconsole --onefile --uac-admin --icon="logo.ico" --name "ScreenRotator" "rotate pc.py"
+```
+
 ---
 
 
