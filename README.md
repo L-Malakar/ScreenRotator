@@ -27,8 +27,22 @@ Press `Win + R`, type `cmd`, and hit Enter. Alternatively, right-click in your d
 
 **Step 3: Clone the Repository**
 Copy and paste the following command to download the project files:
-```dash
+```
 git clone [https://github.com/L-Malakar/ScreenRotator.git](https://github.com/L-Malakar/ScreenRotator.git)
+```
+
+**Step 4: Navigate to the Project Folder**
+Move your terminal into the newly created directory:
+
+```
+cd ScreenRotator
+```
+
+**Step 5: Install Required Libraries**
+Run this command to install the Python modules needed for the UI and screen rotation:
+
+```
+pip install rotatescreen keyboard pystray Pillow pywin32 winshell
 ```
 ---
 
