@@ -57,6 +57,29 @@ python -m PyInstaller --noconsole --onefile --uac-admin --icon="logo.ico" --name
 
 ---
 
+### 📂 Locating Your Executable (.exe)
+
+Once the PyInstaller command finishes, you will notice several new folders in your project directory (`build`, `dist`, and a `.spec` file). 
+
+**How to find your app:**
+1. Open the folder named **`dist`**.
+2. Inside, you will find a single file named **`ScreenRotator.exe`**.
+3. **Move or Run:** You can now move this `.exe` anywhere (like your Desktop). Because we used the `--onefile` and `--add-data` flags, it contains all the icons and logic inside that one file.
+
+**Note on Clean-up:**
+After the build is successful, you can safely delete the `build` folder and the `ScreenRotator.spec` file. They are only temporary files used during the compilation process.
+
+---
+
+### 📂 Project Structure After Build
+Your folder will look like this:
+* 📁 **dist/** <-- **(Your finished .exe is here!)**
+* 📁 **build/** (Temporary files, can be deleted)
+* 📄 **rotate pc.py** (Your source code)
+* 📄 **ScreenRotator.spec** (Build configuration, can be deleted)
+* 🖼️ **logo.ico** (Your original assets)
+
+---
 
 ## ✨ Key Features
 
