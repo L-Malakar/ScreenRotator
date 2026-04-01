@@ -8,6 +8,30 @@
 
 ---
 
+## 🛠️ Installation & Build
+
+### 1. Prerequisites
+* **OS:** Windows 10 or 11.
+* **Python:** [Python 3.8 or higher](https://www.python.org/downloads/).
+* **Privileges:** **Administrator access** is required for the application to hook global hotkeys and rotate the display.
+
+### 2. Environment Setup
+
+Follow these steps to download the source code and prepare your system to run or modify the application:
+
+**Step 1: Install Git (If not already installed)**
+You need Git to clone the repository. If you don't have it, download and install it from [git-scm.com](https://git-scm.com/).
+
+**Step 2: Open Terminal or Command Prompt**
+Press `Win + R`, type `cmd`, and hit Enter. Alternatively, right-click in your desired project folder and select "Open Git Bash here."
+
+**Step 3: Clone the Repository**
+Copy and paste the following command to download the project files:
+git clone [https://github.com/L-Malakar/ScreenRotator.git](https://github.com/L-Malakar/ScreenRotator.git)
+
+---
+
+
 ## ✨ Key Features
 
 * **Global Hotkeys:** Rotate your screen instantly from any application using custom-defined keyboard shortcuts.
@@ -22,22 +46,6 @@
 * **Startup Integration:** Easily add the application to Windows Startup via elevated scheduled tasks directly from the settings menu.
 
 ---
-
----
-
-## 🛠️ Installation & Build
-
-### 1. Prerequisites
-* **OS:** Windows 10 or 11.
-* **Python:** [Python 3.8 or higher](https://www.python.org/downloads/).
-* **Privileges:** **Administrator access** is required for the application to hook global hotkeys and rotate the display.
-
-### 2. Environment Setup
-Clone the repository and install the necessary libraries for screen manipulation and UI rendering:
-
-git clone [https://github.com/L-Malakar/ScreenRotator.git](https://github.com/L-Malakar/ScreenRotator.git)
-cd ScreenRotator
-pip install rotatescreen keyboard pystray Pillow pywin32 winshell
 
 ## 📖 How to Use
 
