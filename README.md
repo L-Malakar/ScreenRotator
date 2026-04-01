@@ -44,6 +44,10 @@ Run this command to install the Python modules needed for the UI and screen rota
 ```
 pip install rotatescreen keyboard pystray Pillow pywin32 winshell
 ```
+
+**Step 6: Verify Assets**
+Ensure logo.ico and rotate pc.py are in the same folder. These were included when you ran the git clone command.
+
 ---
 
 
