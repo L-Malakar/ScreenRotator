@@ -1,18 +1,67 @@
-#PROJECT NAME: SCREENROTATOR AUTO (2026)
+# ScreenRotator Auto 🔴
 
-#DESCRIPTION
-ScreenRotator Auto is a specialized open-source Windows utility designed for rotating the primary display via global keyboard macros. Developed by L. Malakar, it offers a high-performance, thread-safe solution for users who need instant screen orientation changes without accessing system display settings.
+![License](https://img.shields.io/badge/license-MIT-green)
+![Python](https://img.shields.io/badge/python-3.8%2B-blue)
+![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
 
-#KEY FEATURES
+**ScreenRotator Auto** is a professional-grade, open-source Windows utility that provides a seamless way to manage display orientation via keyboard macros. Developed by **L. Malakar**, this tool is designed for tactical and professional users who require instant screen adjustments without navigating deep system menus.
 
-Global Hotkey Support: Execute screen rotations from any active application using system-wide shortcuts.
+---
 
-Precision Orientation Mapping: Correctly maps Up to Landscape (0°), Right to Portrait (90° CW), Down to Landscape Flipped (180°), and Left to Portrait Flipped (270° CW).
+## ✨ Key Features
 
-Safety-First Deferred Saving: Changes to hotkey configurations are stored in a "pending" state and only become active after clicking "Save Changes," preventing accidental lockouts.
+* **Global Hotkeys:** Rotate your screen instantly from any application using custom-defined keyboard shortcuts.
+* **Verified Orientation Mapping:**
+    * **Up:** Landscape (0°).
+    * **Right:** Portrait (90° CW).
+    * **Down:** Landscape Flipped (180°).
+    * **Left:** Portrait Flipped (270° CW).
+* **Deferred Save Logic:** Changes to hotkeys are held in a "pending" state and only take effect once you click **Save Changes**, preventing accidental system lockouts.
+* **Stability & Thread-Safety:** Utilizes a mutex-locking mechanism during hotkey registration to prevent application crashes during real-time updates.
+* **Persistent Branding:** The custom `logo.ico` is forced into every window level, including the Taskbar, Alt+Tab menu, and child dialogs.
+* **Startup Integration:** Easily add the application to Windows Startup via elevated scheduled tasks directly from the settings menu.
 
-Stability Enhancements: Uses a mutex-locking mechanism to ensure the application remains stable and crash-free during hotkey re-registration.
+---
 
-Total Icon Persistence: The application logo (logo.ico) is forcefully applied to the Taskbar, Alt+Tab menu, and all system dialogs.
+## 🛠️ Installation
 
-Automated System Integration: Features built-in tools for creating desktop shortcuts and adding the app to Windows Startup via elevated tasks.
+### 1. Prerequisites
+Ensure you have **Python 3.8 or higher** installed on Windows.
+
+### 2. Clone the Repository
+```bash
+git clone [https://github.com/L-Malakar/ScreenRotator.git](https://github.com/L-Malakar/ScreenRotator.git)
+cd ScreenRotator# ScreenRotator Auto 🔴
+
+![License](https://img.shields.io/badge/license-MIT-green)
+![Python](https://img.shields.io/badge/python-3.8%2B-blue)
+![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
+
+**ScreenRotator Auto** is a professional-grade, open-source Windows utility that provides a seamless way to manage display orientation via keyboard macros. Developed by **L. Malakar**, this tool is designed for tactical and professional users who require instant screen adjustments without navigating deep system menus.
+
+---
+
+## ✨ Key Features
+
+* **Global Hotkeys:** Rotate your screen instantly from any application using custom-defined keyboard shortcuts.
+* **Verified Orientation Mapping:**
+    * **Up:** Landscape (0°).
+    * **Right:** Portrait (90° CW).
+    * **Down:** Landscape Flipped (180°).
+    * **Left:** Portrait Flipped (270° CW).
+* **Deferred Save Logic:** Changes to hotkeys are held in a "pending" state and only take effect once you click **Save Changes**, preventing accidental system lockouts.
+* **Stability & Thread-Safety:** Utilizes a mutex-locking mechanism during hotkey registration to prevent application crashes during real-time updates.
+* **Persistent Branding:** The custom `logo.ico` is forced into every window level, including the Taskbar, Alt+Tab menu, and child dialogs.
+* **Startup Integration:** Easily add the application to Windows Startup via elevated scheduled tasks directly from the settings menu.
+
+---
+
+## 🛠️ Installation
+
+### 1. Prerequisites
+Ensure you have **Python 3.8 or higher** installed on Windows.
+
+### 2. Clone the Repository
+```bash
+git clone [https://github.com/L-Malakar/ScreenRotator.git](https://github.com/L-Malakar/ScreenRotator.git)
+cd ScreenRotator
