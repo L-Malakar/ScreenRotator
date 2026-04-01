@@ -27,8 +27,9 @@ Press `Win + R`, type `cmd`, and hit Enter. Alternatively, right-click in your d
 
 **Step 3: Clone the Repository**
 Copy and paste the following command to download the project files:
+```dash
 git clone [https://github.com/L-Malakar/ScreenRotator.git](https://github.com/L-Malakar/ScreenRotator.git)
-
+```
 ---
 
 
