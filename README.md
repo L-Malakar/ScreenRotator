@@ -52,7 +52,7 @@ Ensure logo.ico and rotate pc.py are in the same folder. These were included whe
 Now you can run the build command. Since you mentioned the .ico is already in your repo, this command will work perfectly:
 
 ```
-python -m PyInstaller --noconsole --onefile --uac-admin --icon="logo.ico" --add-data "logo.ico;." --add-data "logo.ico;." --add-data "logo.ico;." --name "ScreenRotator" "rotate pc.py"
+python -m PyInstaller --noconsole --onefile --uac-admin --icon="logo.ico" --add-data "logo.ico;." --name "ScreenRotator" "rotate pc.py"
 ```
 
 ---
